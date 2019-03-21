@@ -1,0 +1,44 @@
+body {
+	background-image: url(https://download.unsplash.com/photo-1428550670225-15f007f6f1ba);
+	background-repeat: no-repeat;
+  background-size: cover,contain;
+}
+
+.lon {
+	position: absolute;
+  	top: 50px;
+  	right: 200px;
+	text-align: top-left;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 50px;
+}
+.sid {
+	position: absolute;
+  	top: 50px;
+  	left: 200px;
+	text-align: top-right;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 50px;
+}
+.tok {
+	position: absolute;
+  	bottom: 50px;
+  	right: 200px;
+	text-align: bottom-left;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 50px;
+}
+.ny {
+	position: absolute;
+  	bottom: 50px;
+  	left: 200px;
+	text-align: bottom-right;
+	font-family: courier, monospace;
+	color: white;
+	font-size: 50px;
+}
+}
+}

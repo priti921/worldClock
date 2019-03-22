@@ -8,7 +8,7 @@ window.onload = (function() {
 		setInterval(displayTime, 500);
 
 		//Adding 0//
-		if(hours < 10){
+		if(hours > 10){
 			hours = "0" + hours;
 		}
 		if(minutes < 10) {

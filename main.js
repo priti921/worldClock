@@ -7,7 +7,7 @@ window.onload = (function() {
 		seconds = currentTime.getSeconds();
 		setInterval(displayTime, 500);
 
-		//
+		//Adding 0//
 		if(hours < 10){
 			hours = "0" + hours;
 		}
@@ -18,9 +18,7 @@ window.onload = (function() {
 			seconds = "0" + seconds;
 		}
 
-		
-		
-
+		//Conneting with ids//
 		var londonTime = document.getElementById('london');
 		var sidneyTime = document.getElementById('sidney');
 		var newYorkTime = document.getElementById('newYork');
@@ -37,13 +35,12 @@ window.onload = (function() {
 		
 		//set AM and PM//
 		if(hours > 12){
-			hours = hours - 12;
 			meridiem = "PM";
-		}
+		  }
 		if(hours === 0) {
 			hours = 12;
-		}
-		}
-		displayTime();
+		  }
+	}
+	displayTime();
 
-	})
+})
